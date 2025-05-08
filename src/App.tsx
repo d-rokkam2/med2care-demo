@@ -11,7 +11,7 @@ import Team from "./pages/Team";
 
 export default function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
             <Header/>
             <main className="container mx-auto py-8">
                 <Routes>
