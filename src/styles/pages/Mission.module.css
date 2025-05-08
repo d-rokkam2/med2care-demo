@@ -1,0 +1,35 @@
+.pageContainer {
+    @apply space-y-8;
+}
+
+.header {
+    @apply text-4xl font-bold text-blue-700;
+}
+
+.subheader {
+    @apply text-lg text-gray-600;
+}
+
+.statsGrid {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-6 items-center;
+}
+
+.statCard {
+    @apply bg-blue-50 rounded-lg p-6 shadow;
+}
+
+.statNumber {
+    @apply text-3xl font-extrabold text-blue-600;
+}
+
+.statLabel {
+    @apply mt-2 text-gray-700;
+}
+
+.missionStatement {
+    @apply bg-white p-6 rounded-lg shadow border-l-4 border-blue-600;
+}
+
+.bulletList {
+    @apply list-disc pl-5 space-y-2 text-gray-700;
+}
