@@ -1,0 +1,33 @@
+.pageContainer {
+    @apply space-y-12;
+}
+
+.heroSection {
+    @apply bg-blue-50 rounded-lg p-8 text-center;
+}
+.heroTitle {
+    @apply text-5xl font-bold text-blue-700;
+}
+.heroSubtitle {
+    @apply mt-4 text-lg text-gray-600;
+}
+.heroButton {
+    @apply mt-6 inline-block bg-blue-600 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700;
+}
+
+.featuresGrid {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+.featureCard {
+    @apply bg-white rounded-lg shadow p-6;
+}
+.featureTitle {
+    @apply text-xl font-semibold text-gray-800;
+}
+.featureDesc {
+    @apply mt-2 text-gray-600;
+}
+
+.ctaLink {
+    @apply inline-block mt-8 text-blue-600 hover:underline font-medium;
+}
