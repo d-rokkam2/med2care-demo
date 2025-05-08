@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.tsx";
 import Home from "./pages/Home";
 import Mission from "./pages/Mission";
@@ -11,7 +11,7 @@ import Team from "./pages/Team";
 
 export default function App() {
     return (
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <Router>
             <Header/>
             <main className="container mx-auto py-8">
                 <Routes>
@@ -23,7 +23,7 @@ export default function App() {
                         <Route path="/team" element={<Team />} />
                     </Routes>
                 </main>
-        </BrowserRouter>
+        </Router>
 
     )
 }
